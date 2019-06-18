@@ -1,9 +1,7 @@
 #/bin/sh
 
 FILE=/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js
-CSS_SOURCE=~/Users/bricepowell/Desktop/black.css
-
-cp /Users/bricepowell/Desktop/black.css /Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static
+CSS_SOURCE=https://raw.githubusercontent.com/bpowell15/SlackDarkMode/master/black.css
 
 cat >>$FILE <<EOL
 
